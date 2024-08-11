@@ -1,2 +1,52 @@
-main {
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+select {
+  margin: 10px;
+  padding: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.meme {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.meme img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.top-text,
+.bottom-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  pointer-events: none;
+}
+
+.top-text {
+  top: 10px;
+}
+
+.bottom-text {
+  bottom: 10px;
 }
